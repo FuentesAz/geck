@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+span,
+p {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+header {
+    text-align: center;
+    background-color: #5300C8;
+}
+
+.seccion-productos {
+    display: flex;
+}
+
+.caja-productos {
+    width: 50%;
+    padding: 5%;
+
+}
+
+.caja-productos h1 {
+    padding: 10% 0 7%;
+}
+
+.productos {
+    height: 92vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    gap: 10px;
+    padding: 1% 1%;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+
+
+.card {
+    padding: 1% 1%;
+    background-color: #5300C8;
+    color: white;
+    border: 4px solid black;
+    border-radius: 15px;
+}
+
+.card img:first-child {
+    height: 198px;
+    width: 180px;
+    border: 4px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.card-container--value {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.agregar-productos {
+    padding-top: 10%;
+}
+
+.formulario-agregar {
+    padding-top: 20%;
+
+}
+
+.formulario-grupo {
+    margin-bottom: 5%;
+}
+
+.formulario-grupo input {
+    padding: 3%;
+    width: 90%;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid #03318C;
+}
+
+.formulario-grupo input::placeholder {
+    color: #03318C;
+}
+
+.btn {
+    text-align: center;
+    padding: 3% 17%;
+    cursor: pointer;
+}
+
+.btn-enviar {
+    margin-right: 5%;
+    color: white;
+    background-color: #03318C;
+    border: 1px solid #03318C;
+    border-radius: 15px;
+}
+
+.btn-limpiar {
+    color: #03318C;
+    background-color: white;
+    border: 1px solid #03318C;
+    border-radius: 15px;
+
+}
+
+
+footer {
+    background-color: #5300C8;
+    text-align: center;
+    color: white;
+    padding: 5% 0;
+}
+
+.footer-contenido span {
+    font-weight: 100;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .seccion-productos {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .agregar-productos {
+        padding: 10%;
+    }
+
+    .caja-productos{
+        width: 95%;
+    }
+
+    .productos {
+        margin: 50px 0;
+        height: 37vh;
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 1% 1%;
+        box-shadow: none;
+        overflow-x: scroll;
+    }
+
+    .card {
+        padding: 2% 2%;
+        background-color: #5300C8;
+        color: white;
+        border: 4px solid black;
+        border-radius: 15px;
+        margin-bottom: 25px;
+        text-align: left;
+    }
+}
