@@ -46,13 +46,14 @@ header {
     flex-wrap: wrap;
     overflow-x: hidden;
     gap: 10px;
-    padding: 1% 1%;
+    padding: 0% 1%;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.6);
 }
 
 
 
 .card {
+    height: 265px;
     padding: 1% 1%;
     background-color: #5300C8;
     color: white;
@@ -69,7 +70,8 @@ header {
 }
 
 .card-container--value {
-    margin-top: 5px;
+    overflow: hidden;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;

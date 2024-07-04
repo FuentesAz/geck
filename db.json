@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "id": "92dd",
+      "nombre": "Casa - Minimalista",
+      "precio": "1,500,00",
+      "url": "https://i.pinimg.com/originals/f4/ed/6f/f4ed6f454b99c6c5b7164edbd3028cdc.jpg"
+    },
+    {
+      "id": "a5cf",
+      "nombre": "Coca Black",
+      "precio": "20",
+      "url": "https://th.bing.com/th/id/R.523cd96db39843b0715faad16c718121?rik=YdfXAfj3X8aMnQ&pid=ImgRaw&r=0"
+    }
+  ]
+}
